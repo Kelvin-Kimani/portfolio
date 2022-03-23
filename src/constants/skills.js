@@ -56,5 +56,45 @@ export default [
     {
         "name":"Mongo",
         "src": images.mongo
+    },
+
+    {
+        "name":"Google Firebase",
+        "src": images.firebase
+    },
+
+    {
+        "name":"Android",
+        "src": images.android
+    },
+
+]
+
+
+export const devops = [
+ 
+    {
+        "name":"Docker",
+        "src": images.docker
+    },
+
+    {
+        "name":"Kubernetes",
+        "src": images.k8
+    },
+
+    {
+        "name":"AWS",
+        "src": images.aws
+    },
+
+    {
+        "name":"Jenkins",
+        "src": images.jenkins
+    },
+
+    {
+        "name":"Git",
+        "src": images.git
     }
 ]
