@@ -1,3 +1,7 @@
+.app__projects-wrapper{
+  min-height: 100vh;
+  padding: 4rem 0;
+}
 .app__project-portfolio {
     margin: 4rem 0;
     display: flex;
@@ -5,7 +9,7 @@
     justify-content: space-around;
   
     .app__project-item {
-      width: 300px;
+      width: 25%;
       flex-direction: column;
       padding: 1rem;
       border-radius: 0.5rem;
@@ -35,7 +39,6 @@
   .app__project-img {
     width: 100%;
     height: 100%;
-  
     position: relative;
   
     img {
@@ -86,12 +89,14 @@
   }
   
   .app__project-content {
-    padding: 0.5rem;
+    padding: 1rem;
     width: 100%;
     position: relative;
     flex-direction: column;
   
     h4 {
+      font-size: 1.5rem;
+      font-weight: 600;
       margin-top: 1rem;
       line-height: 1.5;
   
@@ -101,7 +106,7 @@
     }
 
     p {
-      text-overflow: ellipsis;
+      font-size: 1rem;
     }
   }
   
