@@ -35,6 +35,9 @@ const Skills = () => {
                         data-for={work.name}
                         key={index}
                       >
+                        <div className='app__skills-timeline'>
+                          <p>{work.startDate}</p><span> - </span><p>{work.endDate}</p>
+                        </div>
                         <h4 className="bold-text">{work.name}</h4>
                         <p className="p-text">{work.company}</p>
                         <p className='description'>{work.desc}</p>

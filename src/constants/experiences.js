@@ -5,7 +5,9 @@ export default [
                 {
                     "name" : "Software Engineer",
                     "company" : "Tracom Services Limited",
-                    "desc" : "Developed Web solutions using Spring boot"   
+                    "desc" : "Developed Web solutions using Spring boot",
+                    "startDate" : "August 2021",
+                    "endDate" : "Present"   
                 }
             ]
     }

@@ -59,6 +59,11 @@
       width: auto;
   
       box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+      @media screen and(max-width:900px) {
+        display: flex;
+        padding: 1rem;
+      }
     }
   
     .tag-cmp {
@@ -155,7 +160,6 @@
         margin: 1rem;
       }
     }
-
 
     @media screen and (max-width:900px) {
       display: none;
